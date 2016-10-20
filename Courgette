@@ -1,1 +1,9 @@
-courgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgettecourgette
+mkdir test
+cd test
+git init
+git commit -m "Courgette : Bien mure"
+git status
+git remote -v
+git remote add origin https://github.com/cjolliet/Courgette-bien-mure.git
+git remove -v
+git push -u origin master
