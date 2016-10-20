@@ -7,3 +7,6 @@ git remote -v
 git remote add origin https://github.com/cjolliet/Courgette-bien-mure.git
 git remove -v
 git push -u origin master
+git add Courgette
+git commit -m "Courgette : encore"
+git push origin master
