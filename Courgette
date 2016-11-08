@@ -14,3 +14,7 @@ Courgette du test
 Courge
 ls -al ~/.ssh
 ssh-keygen -t rsa -b 4096 -C "addresse email"
+
+git clone https://github.com/compte/dossier.git
+cd dossier
+git remote add official https://github.com/comptorig/dossier.git
