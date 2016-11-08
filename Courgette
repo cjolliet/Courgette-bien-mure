@@ -1,20 +1,25 @@
 mkdir test
 cd test
+
+TP1
 git init
 git commit -m "Courgette : Bien mure"
 git status
-git remote -v
-git remote add origin https://github.com/cjolliet/Courgette-bien-mure.git
-git remove -v
-git push -u origin master
 git add Courgette
 git commit -m "Courgette : encore"
-git push origin master
+git remote -v
+git remote add origin https://github.com/cjolliet/Courgette-bien-mure.git
+git add Courgette
+git commit -m "Courgette : encore"
+git remove -v
+git push -u origin master / git push origin master
 Courgette du test
 Courge
 ls -al ~/.ssh
 ssh-keygen -t rsa -b 4096 -C "addresse email"
 
+TP2
 git clone https://github.com/compte/dossier.git
 cd dossier
 git remote add official https://github.com/comptorig/dossier.git
+2 remote
