@@ -23,3 +23,14 @@ git clone https://github.com/compte/dossier.git
 cd dossier
 git remote add official https://github.com/comptorig/dossier.git
 2 remote
+git remote add bitbucket https://cjolliet@bitbucket.org/cjolliet/courge.git
+git push bitbucket master
+
+Tools :
+-Créer un nouveau projet : Onglet Projet, New Projet.
+-Créer des notes dans les colonnes et des colonnes : Add Column, icône '+'.
+-Ajouter des issues dans les colonnes : Add cards, prendre l'issue et l'ajouter sur la colonne.
+-Convertir une note en issue : Sélecionner la note, cliquer sur la flèche V, Convert to issue.
+
+Ajouter Github à Gitter :
+Room Settings, Integrations, Github, Continue, paramétrer les dossiers et les changements concernés.
